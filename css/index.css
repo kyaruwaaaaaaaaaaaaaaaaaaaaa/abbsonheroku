@@ -1,0 +1,8 @@
+p.username_view{
+	font-weight:bold;
+	color:red;
+}
+
+p.date_view{
+	font-style:italic;
+}
