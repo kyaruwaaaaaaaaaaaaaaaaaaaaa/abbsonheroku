@@ -5,7 +5,7 @@
 <!-- bbs top page -->
 <?php
 	ini_set("display_errors",1);
-	define('FILE_PATH',"./logs/messages.txt");
+	define('FILE_PATH',"/apps/logs/messages.txt");
 	if(!empty($_POST)){
 		
 		$user_name = htmlspecialchars($_POST["user_name"]);
